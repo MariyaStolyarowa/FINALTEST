@@ -14,3 +14,25 @@ void FillArray(string[] array) // Метод заполнения исходно
             
         }
 }
+void PrintArray(string[] array)// Метод печати массивов
+{
+    if (array.Length==0)
+        {
+            Console.Write($" [] ");
+        }
+    else
+        {   
+            Console.Write("[");
+            for (int i = 0; i < array.Length; i++)
+                {
+                    if (i<array.Length-1)
+                        {
+                            Console.Write($" '{array[i]}', ");
+                        }
+                    else
+                        {Console.Write($" '{array[i]}' ");}
+                }
+                    Console.Write("]");
+                    Console.WriteLine();
+        }
+}
