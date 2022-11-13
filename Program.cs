@@ -61,3 +61,5 @@ void StayWithout(string[] array1, string[] array2) //Метод заполнен
     }
 }
 string[] array1 = new string[n]; //Инициализируем исходный массив
+Console.WriteLine("Введите эллементы массива:");
+FillArray(array1);
