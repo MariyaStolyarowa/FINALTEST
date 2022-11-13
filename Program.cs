@@ -6,3 +6,11 @@ Console.Clear();
 Console.Write("Введите количество элементов массива = ");
 int m;
 int n = Convert.ToInt32(Console.ReadLine());
+void FillArray(string[] array) // Метод заполнения исходного массива
+{
+    for (int i = 0; i < n; i++)
+        { 
+            array[i] = Convert.ToString(Console.ReadLine());
+            
+        }
+}
