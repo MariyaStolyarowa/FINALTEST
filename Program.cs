@@ -48,3 +48,15 @@ void Count(string[] array1)// Метод подсчета количества �
     }
 m = count;
 }    
+void StayWithout(string[] array1, string[] array2) //Метод заполнения нового массива строками длинной <=3 символа из исходного массива
+{
+    int count = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+    if(array1[i].Length <= 3)
+        {
+        array2[count] = array1[i];
+        count++;
+        }
+    }
+}
