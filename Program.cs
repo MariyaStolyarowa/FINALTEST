@@ -36,3 +36,15 @@ void PrintArray(string[] array)// Метод печати массивов
                     Console.WriteLine();
         }
 }
+void Count(string[] array1)// Метод подсчета количества строк в исхоном массиве с длинной <= 3 символа 
+{
+    int count = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+    if(array1[i].Length <= 3)
+        {
+           count++;
+        }
+    }
+m = count;
+}    
