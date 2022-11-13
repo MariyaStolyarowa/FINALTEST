@@ -65,3 +65,4 @@ Console.WriteLine("Введите эллементы массива:");
 FillArray(array1);
 Count(array1);
 string[] array2 = new string[m];//Инициализируем второй массив массив
+StayWithout(array1, array2);
